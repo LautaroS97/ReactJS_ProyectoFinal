@@ -1,0 +1,23 @@
+.widget{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #3A291C;
+    margin-left: 2rem;
+    visibility: hidden;
+}
+  
+.widget:hover{
+    color: #9B371E;
+}
+  
+.widgetSpan{
+    font-family: 'cinzel', serif;
+    font-weight:600;
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+  
+.widgetVisible{
+    visibility: visible;
+}

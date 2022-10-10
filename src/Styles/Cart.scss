@@ -1,0 +1,97 @@
+.cartBox{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.totalCompra{
+    text-align: center;
+  }
+
+.botonesFinales{
+    display: flex;
+    justify-content: center;
+}
+
+.vaciarCarrito{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+    width: 18rem;
+    height: 4rem;
+    background-color: #CDDCE6;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+}
+  
+.vaciarCarrito:hover{
+    background-color: white;
+    border:  black solid 3px;
+}
+  
+.finalizarCompra{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+    width: 18rem;
+    height: 4rem;
+    background-color: #3A291C;
+    color: #CDDCE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    text-decoration: none;
+}
+  
+.finalizarCompra:hover{
+    background-color: #9B371E;
+    border: #3A291C solid 3px;
+    color: gold;
+}
+
+.tachito{
+    padding: 0.4rem;
+    padding-top: 0.2rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    background-color: #CDDCE6;
+}
+  
+.tachito:hover{
+    background-color: red;
+    border: solid 3px black;
+    color: white;
+}
+  
+.volverComprar{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: auto;
+    width: 14rem;
+    height: 4rem;
+    background-color: #3A291C;
+    color: #CDDCE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    text-decoration: none;
+    margin-bottom: 13rem;
+    margin-top: 13rem;
+}
+  
+.volverComprar:hover{
+    background-color: #9B371E;
+    border: #3A291C solid 3px;
+    color: gold;
+}
+  
+.carritoVacioMsj{
+    margin-top: 1rem;
+  }

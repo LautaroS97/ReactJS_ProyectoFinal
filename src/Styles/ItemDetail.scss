@@ -1,0 +1,76 @@
+.boxContainerDetail{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+.containerDetail{
+    background-color: #CDDCE6;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    max-width: 55rem;
+    box-shadow: 10px 10px 30px #3A291C;
+}
+  
+.containerDetail img{
+    width: 100%;
+    text-align: center;
+    border-radius: 2rem;
+    border: black solid 5px;
+}
+  
+.containerDetailNombre{
+    font-family: 'cinzel', serif;
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #3A291C;
+    font-weight:600;
+    text-align: center;
+    padding: 1rem;
+}
+  
+.containerDetailInfo{
+    font-family: 'Marcellus', serif;
+    font-size: xx-large;
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+.containerDetailContador{
+    text-align: center;
+    font-family: 'cinzel', serif;
+}
+  
+.containerSelector{
+    text-align: center;
+}
+  
+.terminarCompraBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.terminarCompra{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+    width: 18rem;
+    height: 4rem;
+    background-color: #3A291C;
+    color: #CDDCE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+    text-decoration: none;
+}
+  
+.terminarCompra:hover{
+    background-color: #9B371E;
+    border: #3A291C solid 3px;
+    color: gold;
+}

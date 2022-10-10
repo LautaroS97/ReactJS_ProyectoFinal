@@ -1,0 +1,36 @@
+.logoContainer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+  
+.logo{
+    width: 18rem;
+}
+  
+.logo:hover{
+    opacity: 75%;
+}
+  
+.menuContainer{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 6.5rem;
+    justify-content: center;
+    background-color: #CDDCE6;
+    flex-wrap: wrap;
+}
+  
+.categories{
+    font-size: xx-large;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    color: #3A291C;
+}
+  
+.categories:hover{
+    color: #9B371E;
+}

@@ -1,0 +1,21 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+/*CSS Componentes*/
+@import 'Cart.scss';
+@import 'CartWidget.scss';
+@import 'Checkout.scss';
+@import 'Counter.scss';
+@import 'FooterStyle.scss';
+@import 'HeaderStyle.scss';
+@import 'Item.scss';
+@import 'ItemDetail.scss';
+@import 'ItemList.scss';
+@import 'Selector.scss';
+@import 'SweetAlert.scss';
+
+/*CSS Mobile*/
+@import 'Mobile.scss';

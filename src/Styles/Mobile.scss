@@ -1,0 +1,133 @@
+@media (max-width: 600px) {
+  
+    /*HEADER*/
+    
+    .menuContainer{
+      padding-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /*ITEM*/
+  
+    .card{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #CDDCE6;
+      padding: 1rem;
+      margin: 1rem;
+      margin-bottom: 3rem;
+      width: 20rem;
+      border-radius: 3rem;
+      box-shadow: 10px 10px 30px #3A291C;
+    }
+    .card img{
+      border-radius: 2rem;
+      box-shadow: 10px 10px 30px grey;
+      border: #3A291C 5px solid;
+      max-width: 16rem;
+      margin-top: 1rem;
+    }
+    .nombreProducto{
+      font-family: 'cinzel', serif;
+      font-size: large;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #3A291C;
+      font-weight:600;
+    }
+    .infoPrecio{
+      margin: auto;
+      font-family: 'Marcellus', serif;
+      margin-top: 0.2rem;
+    }
+    .infoDesc{
+      font-family: 'Marcellus', serif;
+      color: black;
+      font-size: large;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .verMas{
+      font-family: 'Marcellus', serif;
+    }
+    .noHayStock{
+      font-family: 'Marcellus', serif;
+      text-align: center;
+      padding-top: 1rem;
+    }
+  
+    /*FOOTER*/
+  
+    .centrarFooter{
+      display: flex;
+      flex-direction: column;
+    }
+    .termsLink{
+      font-size: large;
+    }
+  
+    /*ITEMDETAIL*/
+  
+    .containerDetail{
+      margin: 2rem;
+    }
+    .containerDetail img{
+      border-radius: 1.5rem;
+    }
+    .containerDetailNombre{
+      font-size: X-large;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .containerDetailInfo{
+      font-family: 'Marcellus', serif;
+      font-size: large;
+      color: black;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      text-align: center;
+    }
+    .terminarCompra{
+      width: 16rem;
+    }
+  
+    /*CART*/
+
+    .cartBox{
+      width: 90%;
+    }
+    .botonesFinales{
+      flex-direction: column;
+      align-items: center;
+    }
+    .volverComprar{
+      margin: auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  
+    /*WIDGET*/
+    
+    .widgetVisible{
+      margin-bottom: 1rem;
+    }
+  
+    /*CHECKOUT*/
+  
+    .verificacionTitulo{
+      width: 58%;
+      text-align: left;
+    }
+  
+    input[type=checkbox] {
+      transform: scale(1.5);
+    }
+  
+    form{
+      text-align: center;
+    }
+}

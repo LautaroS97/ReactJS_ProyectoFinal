@@ -1,0 +1,46 @@
+.centrarFooter{
+    background-color: #CDDCE6;
+    text-align: center;
+    padding: 3rem;
+    font-family: 'Marcellus', serif;
+    margin-top: 2rem;
+    width: 100%;
+}
+  
+.termsLink{
+    font-family: 'cinzel', serif;
+    font-weight:600;
+    font-size: x-large;
+    margin: 1rem;
+    text-decoration: none;
+    color: #3A291C;
+}
+  
+.termsLink:hover{
+    color: #9B371E;
+}
+  
+.termsTitulo{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    color: black;
+}
+  
+.termsAclaracion{
+    width: 50%;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    font-size: x-large;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.espaciadorFooter{
+    height: 2rem;
+}

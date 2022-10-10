@@ -1,0 +1,64 @@
+.checkoutTitulo{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    color: black;
+}
+
+.checkoutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.formFieldTitle{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+}
+
+.formField{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+}
+
+.verificacionTitulo{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin: 1rem;
+}
+
+input[type=checkbox] {
+    transform: scale(1.6);
+}
+
+.EnviarContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.checkoutEnviar{
+    font-size: x-large;
+    font-family: 'Marcellus', serif;
+    margin-top: 2rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: #3A291C;
+    color: #CDDCE6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5rem;
+}
+
+.checkoutEnviar:hover{
+    background-color: #9B371E;
+    border: #3A291C solid 3px;
+    color: gold;
+}

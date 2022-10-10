@@ -1,0 +1,94 @@
+.containerCard{
+    display: flex;
+}
+  
+.cardList{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+  
+.card{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #CDDCE6;
+    padding: 2rem;
+    margin: 2rem;
+    width: 30rem;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 30px #3A291C;
+}
+  
+.card img{
+    border-radius: 3rem;
+    box-shadow: 10px 10px 30px grey;
+    border: #3A291C 5px solid;
+}
+  
+.imagenProducto{
+    width: 25rem;
+    height: auto;
+}
+  
+.nombreProducto{
+    font-family: 'cinzel', serif;
+    font-size: xx-large;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #3A291C;
+    font-weight:600;
+}
+  
+.nombreProducto:hover{
+    color: #9B371E;
+}
+  
+.infoProducto{
+    font-family: 'Marcellus', serif;
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+  
+.infoPrecio{
+    margin: auto;
+    font-family: 'Marcellus', serif;
+    margin-top: 0.2rem;
+}
+  
+.infoDesc{
+    font-family: 'Marcellus', serif;
+    color: black;
+    margin-bottom: 2rem;
+}
+  
+.verMas{
+    padding: 1rem;
+    background-color:#3A291C;
+    margin: auto;
+    margin-top: 2rem;
+    border: black solid 2px;
+    border-radius: 2rem;
+}
+  
+.verMas:hover{
+    border:#3A291C double 3px;
+    background-color: #9B371E;
+}
+  
+.verMasButton{
+    text-decoration: none;
+    color: #CDDCE6;
+    font-size: x-large;
+    padding: 1rem;
+}
+  
+.verMasButton:hover{
+    color: gold;
+}
+  
+.noHayStock{
+    color: red;
+    font-family: 'Marcellus', serif;
+}
